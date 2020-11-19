@@ -20,13 +20,13 @@ htop \
 procps \
 tcpdump \
 rrdtool-dev \
+libpcap-dev \
 ethtool \
 lzo-dev \
 screen \
 git \
 tar \
 less \
-shadow \
-su-exec 
+shadow
 
 RUN rm -rf /var/cache/apk/*
